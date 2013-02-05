@@ -59,7 +59,9 @@ Sajilli::Application.configure do
   domain: "myapp.herokuapp.com",
   authentication: "plain",
   enable_starttls_auto: true,
-  }
+  user_name: ENV["GMAIL_USERNAME"],
+  password: ENV["GMAIL_PASSWORD"]
+}
 
   # Enable threaded mode
   # config.threadsafe!
