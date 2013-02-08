@@ -23,7 +23,6 @@ group :assets do
 end
 
 gem 'jquery-rails'
-gem 'clearance'
 gem 'thin'
 gem 'high_voltage'
 gem 'paperclip'
@@ -57,7 +56,6 @@ end
 
 group :staging, :production do
   gem 'newrelic_rpm'
-  gem 'thin'
 end
 
 

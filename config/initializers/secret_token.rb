@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Sajilli::Application.config.secret_token = 'f1e0ec007009683642dce5af0a4b4a0299a6262d1704da88d5ac2cb8083b5016621a75d5936813840276a0de0299be22e1a558f5f1022277f3559e4cedc1ea35'
+Sajilli::Application.config.secret_token = '15281c4ef021de387c0beb332323080ca6f45b3370aafe893dba76b977a64cb3e2263158ec578d1f1b2920e682f7d3eb92588ab37c16e3d6c4e6fc7d31d06804'
